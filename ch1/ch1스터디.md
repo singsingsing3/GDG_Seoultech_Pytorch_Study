@@ -143,7 +143,7 @@ class VGG(nn.Module):
 VGG 모델을 구현했다.
 - `nn.Sequential` 함수는 ()안에 있는 연산들을 순차적으로 진행한다.
 VGG의 구조를 설명하는 것보다 우선 pytorch 구현에 초점을 두겠다.
-- ` nn.Linear(7 * 7 * 512, 4096)` classify하는 fc계층에서 첫 Linear계층은 7*7*512의 input 값을 갖는다.
+- ` nn.Linear(7 * 7 * 512, 4096)` classify하는 fc계층에서 첫 Linear계층은 7x7x512의 input 값을 갖는다.
 
 - feature layer를 지나면 224x224의 image의 크기가 7x7로 변하고 channel은 512를 가진다.
 
