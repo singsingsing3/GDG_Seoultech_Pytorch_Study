@@ -650,7 +650,7 @@ class DBox(object):
         self.aspect_ratios = cfg['aspect_ratios']  # DBOX의 종횡비
 
     def make_dbox_list(self):
-        '''DBoxを作成する'''
+        '''DBox만들기'''
         mean = []
         # 'feature_maps': [38, 19, 10, 5, 3, 1]
         for k, f in enumerate(self.feature_maps):
